@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.button-ent  {
+  font-size: 0.5em;
+  background-color: #f5f3e019;
+  color: #F5F3E0;
+  border-radius: 10px;
+  border: 1px solid #F5F3E0;
+  transition: 
+    background-color 0.3s ease-in-out, 
+    color 0.3s ease-in-out, 
+    box-shadow 0.3s ease-in-out,
+    font-size 0.3s ease-in-out,
+    border-radius 0.3s ease-in-out;
+  outline: none;
+  &:hover{
+    font-size: 1.5em;
+    border-radius: 50px;
+    background-color: #892f08;
+    color: #F5F3E0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-color: #B7410E;
+  }
+  &:focus{
+    outline: none;
+  }
+}
+
